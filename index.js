@@ -7,4 +7,4 @@ const hello = (name) => {
   }
 };
 
-console.log(hello("bhasker"));
+console.log(hello('bhasker'));
