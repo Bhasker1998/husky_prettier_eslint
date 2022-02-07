@@ -1,6 +1,7 @@
 const hello = (name) => {
   try {
-    return `my is ${name}`;
+    let a = 12;
+    return `my is ${name}` + a;
   } catch (error) {
     return error;
   }
