@@ -1,9 +1,9 @@
-const hello = (name)=>{
- try {     return `my is ${name}`
+const hello = (name) => {
+  try {
+    return `my is ${name}`;
   } catch (error) {
-    return error
-}
-}
+    return error;
+  }
+};
 
-
-console.log(hello('bhasker'))
+console.log(hello("bhasker"));
