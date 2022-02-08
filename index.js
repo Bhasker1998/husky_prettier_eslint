@@ -7,4 +7,13 @@ const hello = (name) => {
   }
 };
 
-console.log(hello('bhasker'));
+const userSignup = async (payload) => {
+  try {
+    let dsf = "sdafsdfasdfa";
+    console.log(dsf);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+console.log(hello("bhasker"));
