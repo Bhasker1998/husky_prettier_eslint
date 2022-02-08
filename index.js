@@ -7,13 +7,4 @@ const hello = (name) => {
   }
 };
 
-const userSignup = async (payload) => {
-  try {
-    let dsf = "sdafsdfasdfa";
-    console.log(dsf);
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-console.log(hello("bhasker"));
+console.log(hello('bhasker'));
